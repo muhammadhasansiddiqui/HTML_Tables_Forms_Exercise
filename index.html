@@ -1,13 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML Tables and Forms</title>
-  </head>
-  <body>
-    <main>
-      <!-- Complete the Exercises HERE -->
-    </main>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML Tables and Forms</title>
+</head>
+
+<body>
+  <main>
+
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th>total servings</th>
+          <th>serving size</th>
+          <th>calories per serving</th>
+          <th>carbs per serving</th>
+          <th>sugars per serving</th>
+          <th>sodium per serving</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Coca Cola</td>
+          <td>1 (12 fl oz)</td>
+          <td>1 can (12 fl oz)</td>
+          <td>140</td>
+          <td>39g</td>
+          <td>39g</td>
+          <td>45mg</td>
+        </tr>
+        <tr>
+          <td>Pepsi</td>
+          <td>1 (12 fl oz)</td>
+          <td>1 can (12 fl oz)</td>
+          <td>150</td>
+          <td>41g</td>
+          <td>41g</td>
+          <td>30mg</td>
+        </tr>
+        <tr>
+          <td>Coca Cola Zero</td>
+          <td>1 (12 fl oz)</td>
+          <td>1 can (12 fl oz)</td>
+          <td>0</td>
+          <td>0g</td>
+          <td>0g</td>
+          <td>40mg</td>
+        </tr>
+        <tr>
+          <td>Dr. Pepper</td>
+          <td>1 (12 fl oz)</td>
+          <td>1 can (12 fl oz)</td>
+          <td>150</td>
+          <td>40g</td>
+          <td>40g</td>
+          <td>55mg</td>
+        </tr>
+        <tr>
+          <td>Mountain Dew</td>
+          <td>1 (12 fl oz)</td>
+          <td>1 can (12 fl oz)</td>
+          <td>170</td>
+          <td>46g</td>
+          <td>46g</td>
+          <td>60mg</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <form>
+      <fieldset>
+        <label for="total servings">total servings</label>
+        <input type="text" name="total servings" id="total servings">
+      </fieldset>
+      <fieldset>
+        <label for="serving size">serving size</label>
+        <input type="text" name="serving size" id="serving size">
+      </fieldset>
+      <fieldset>
+        <label for="calories per serving">calories per serving</label>
+        <input type="text" name="calories per serving" id="calories per serving">
+      </fieldset>
+      <fieldset>
+        <label for="carbs per serving">carbs per serving</label>
+        <input type="text" name="carbs per serving" id="carbs per serving">
+      </fieldset>
+      <fieldset>
+        <label for="sugars per serving">sugars per serving</label>
+        <input type="text" name="sugars per serving" id="sugars per serving">
+      </fieldset>
+      <fieldset>
+        <label for="sodium per serving">sodium per serving</label>
+        <input type="text" name="sodium per serving" id="sodium per serving">
+      </fieldset>
+      <button type="submit">Submit</button>
+    </form>
+
+  </main>
+</body>
+
 </html>
